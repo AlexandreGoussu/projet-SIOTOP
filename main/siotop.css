@@ -1,0 +1,65 @@
+/* Style général */
+#bloc-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Style du formulaire de sélection */
+#nav form {
+    margin-bottom: 20px;
+}
+
+/* Style des rangées */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Style des colonnes */
+.col {
+    flex: 0 0 calc(25% - 20px);
+    margin: 0 10px;
+}
+
+/* Style des vignettes de produit */
+.vignette {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+.vignette img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.designation {
+    font-weight: bold;
+}
+
+.prix {
+    color: green;
+    font-size: 1.2em;
+}
+
+/* Style du pied de page */
+#v_piedPage {
+    margin-top: 20px;
+}
+
